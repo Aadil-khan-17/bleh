@@ -11,35 +11,38 @@ export default class Navbar extends Component{
     render(){
         return (
            <NavWrapper className="navbar navbar-expand-sm navbar-dark px-sm-5">
-               {/* 
-https://www.iconfinder.com/icons/1243689/call_phone_icon
-Creative Commons (Attribution 3.0 Unported);
-               https://www.iconfinder.com/Makoto_msk */}
                <Link to = '/'>
-               <img src={logo} alt="store" className="navbar-brand"/>
-
-               </Link>
-               <ul className="navbar-nav align-items-center">
-                   <li className="nav-item ml-5">
+               <img style={{fontSize: 20}} src={logo} alt="store" className="navbar-brand"/></Link>
+               <div>
                     <Link to = "/" className="nav-link">
-                        products
-
+                        <h1 style={{fontSize: 30, fontFamily: "cursive"}}>Dummy-Kart</h1>
                     </Link>
-
-                   </li>
-               </ul>
-               <Link to='/cart' className="ml-auto">
-                   <ButtonContainer>
-                    <span className="mr-2">
-                    <i className="fas fa-cart-plus" />
-                       my cart 
+               </div>
+               <div className='ml-auto'>
+               <Link to='/cart'>
+              
+                  <ButtonContainer>
+                    <span className="mr-2" style={{color: "white",fontFamily:"unset",fontSize:18}}>
+                    <i style={{marginRight: 10,fontSize: 20}} className="fas fa-cart-plus" />
+                       My cart
                     </span>
                      
                    </ButtonContainer>
 
                </Link>
+               <Link to='/Account'>
+                   <ButtonContainer>
+                    <span className="mr-2" style={{color: "white",fontFamily:"unset",fontSize:18}}>
+                    <i style={{marginRight: 10,fontSize: 20}} className="fas fa-user" />
+                       My Account
+                    </span>
+                     
+                   </ButtonContainer>
 
+               </Link>
+               </div>
 
+               
 
            </NavWrapper>
         )
@@ -53,5 +56,4 @@ background: var(--mainBlue);
     text-transform: capitalize;
     
 }
-
 `;

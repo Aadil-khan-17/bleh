@@ -199,8 +199,6 @@ class ProductProvider extends Component {
                 cartSubTotal: subTotal,
                 cartTax: tax,
                 cartTotal: total,
-
-
             });
         });
 

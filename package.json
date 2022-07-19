@@ -3,13 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "bootstrap": "^4.3.1",
+    "@walletconnect/web3-provider": "^1.7.8",
+    "@web3-react/core": "^6.1.9",
+    "@web3-react/injected-connector": "^6.0.7",
+    "axios": "^0.27.2",
+    "bootstrap": "^4.6.1",
+    "ethers": "^5.6.9",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
+    "react-bootstrap": "^2.4.0",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
-    "styled-components": "^4.3.2"
+    "reactjs-popup": "^2.0.5",
+    "styled-components": "^4.3.2",
+    "web3": "^1.7.4",
+    "web3modal": "^1.9.8"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -31,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@iconify/react": "^3.2.2"
   }
 }
