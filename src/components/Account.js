@@ -25,7 +25,7 @@ const btnhandler = () => {
 	} else {
 	alert("install metamask extension!!");
 	}
-  if (window.ethereum.networkVersion != 3){
+  if (window.ethereum.networkVersion !== 3){
     alert("Network ID is not Ropsten !!! Switch to Ropsten");
   }
 };
@@ -62,12 +62,12 @@ const accountChangeHandler = (account) => {
 
 const mintNFT = async () => {
  
-  const result = await contractData.safeMint("0xbf6f03450452271073877Bb4A36A5c4ED6244957",11,120);
+  const result = await contractData.safeMint("0xbf6f03450452271073877Bb4A36A5c4ED6244957",12,120);
   let res = await result.wait();
   console.log(res);
 }
 const transferNFT = async () => {
-  const result = await contractData.transfer("0xbf6f03450452271073877Bb4A36A5c4ED6244957","0xf35d095590614477b35645Fcd18422b9945cdBc7",11);
+  const result = await contractData.transfer("0xbf6f03450452271073877Bb4A36A5c4ED6244957","0xf35d095590614477b35645Fcd18422b9945cdBc7",12);
   let res = await result.wait();
   console.log(res);
 }

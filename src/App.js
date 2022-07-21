@@ -10,6 +10,10 @@ import Default from "./components/Default";
 import Cart from "./components/Cart";
 import Modal from './components/Modal';
 import Account from './components/Account'
+import ProductView from './components/ProductView';
+import AddProd from './components/AddProd';
+import DeleteProd from './components/DeleteProd';
+import UpdateProd from './components/UpdateProd';
 
 export default class App extends Component {
   render(){
@@ -19,8 +23,11 @@ export default class App extends Component {
       <Switch>
         <Route  exact path="/" component={ProductList} />
         <Route path="/details" component={Details}/>
-        <Route path="/cart" component={Cart}/>
+        <Route path="/ProductView" component={ProductView}/>
         <Route path="/Account" component={Account}/>
+        <Route path="/AddProd" component={AddProd}/>
+        <Route path="/DeleteProd" component={DeleteProd}/>
+        <Route path="/UpdateProd" component={UpdateProd}/>
         <Route component={Default}/>
       </Switch>
       <Modal />

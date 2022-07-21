@@ -4,17 +4,6 @@ import Title from "./Title";
 // DONT NEEED     import {storeProducts} from '../data';
 import {ProductConsumer} from '../context';
 import {detailProduct} from '../data';
-/*
-BENIM COZUMUM:
-                            <ProductConsumer>
-                                {
-
-                                    ({}) => {
-                                        return (<h1> {}</h1>);
-                                    }
-                                }
-                            </ProductConsumer>
-*/
 
 
 export default class ProductList extends Component{

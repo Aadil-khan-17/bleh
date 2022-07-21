@@ -1,13 +1,10 @@
 import React, { Component } from 'react'
 
-// for css
 import styled from 'styled-components';
 import {Link} from 'react-router-dom';
 import {ProductConsumer} from '../context';
 import PropTypes from 'prop-types';
 
-
-//2.03.00 te kaldım
 export default class Product extends Component {
     render() {
         const {id, title, img, price, inCart} = this.props.product;

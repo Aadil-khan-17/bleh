@@ -12,10 +12,6 @@ export default class Details extends Component {
                 {      
                     
                      (value) => {
-                        // between  2.40.00-2.58.00
-                        //Before check
-                        //console.log(value.detailProduct);
-                        //Next
                         
                         const {id, company, img, info, price, title, inCart } = value.detailProduct;
                         return (
@@ -62,9 +58,7 @@ export default class Details extends Component {
                                             onClick={() => {
                                                 value.addToCart(id);
                                                 value.openModal(id);
-                                                
-
-                                                //3.07
+                                            
                                             }}>
                                                     {inCart?"inCart":"add to cart"}
                                             </ButtonContainer>
@@ -74,9 +68,6 @@ export default class Details extends Component {
 
                                         </div>  
                                     </div>
-                                 {/* end of product info */}
-
-
 
                             </div>
                         );

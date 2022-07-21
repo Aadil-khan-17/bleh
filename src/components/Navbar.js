@@ -19,7 +19,7 @@ export default class Navbar extends Component{
                     </Link>
                </div>
                <div className='ml-auto'>
-               <Link to='/cart'>
+               <Link to='/ProductView'>
               
                   <ButtonContainer>
                     <span className="mr-2" style={{color: "white",fontFamily:"unset",fontSize:18}}>
@@ -35,6 +35,37 @@ export default class Navbar extends Component{
                     <span className="mr-2" style={{color: "white",fontFamily:"unset",fontSize:18}}>
                     <i style={{marginRight: 10,fontSize: 20}} className="fas fa-user" />
                        My Account
+                    </span>
+                     
+                   </ButtonContainer>
+
+               </Link>
+              
+               <Link to='/AddProd'>
+                   <ButtonContainer>
+                    <span className="mr-2" style={{color: "white",fontFamily:"unset",fontSize:18}}>
+                    <i style={{marginRight: 10,fontSize: 20}} className="fas fa-user" />
+                       Add Product
+                    </span>
+                     
+                   </ButtonContainer>
+
+               </Link>
+               <Link to='/DeleteProd'>
+                   <ButtonContainer>
+                    <span className="mr-2" style={{color: "white",fontFamily:"unset",fontSize:18}}>
+                    <i style={{marginRight: 10,fontSize: 20}} className="fas fa-user" />
+                       Detailed Product
+                    </span>
+                     
+                   </ButtonContainer>
+
+               </Link>
+               <Link to='/UpdateProd'>
+                   <ButtonContainer>
+                    <span className="mr-2" style={{color: "white",fontFamily:"unset",fontSize:18}}>
+                    <i style={{marginRight: 10,fontSize: 20}} className="fas fa-user" />
+                       Update Product
                     </span>
                      
                    </ButtonContainer>

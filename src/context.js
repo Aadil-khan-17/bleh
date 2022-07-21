@@ -3,23 +3,6 @@ import {storeProducts, detailProduct} from './data';
 //1.47
 
 const ProductContext = React.createContext();
-//Provider
-//Consumer
-//bireysel not:
-//productcontext.provider icinde kullanmak icin yedek
-//                products: this.state.products,
-//                detailProduct: this.state.detailProduct
-/*
-one of point of views:
-            <ProductContext.Provider value = {{
-                    ...this.state,
-                    handleDetail: this.handleDetail,
-                    addToCart: this.addToCart,
-            }}>
-                {this.props.children}
-            </ProductContext.Provider>
-*/
-
 
 class ProductProvider extends Component {
    state = {
