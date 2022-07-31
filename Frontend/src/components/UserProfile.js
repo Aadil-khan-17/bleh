@@ -12,14 +12,14 @@ const UserProfile = () => {
     const [NFTd, setNft] = useState([]);
 
     const fetchUserDetails = async () => {
-        const result = await axios.get('http://127.0.0.1:8000/api/user/1/');
+        const result = await axios.get('http://127.0.0.1:8000/api/user/2/');
 
         console.log(result.data)
         setUser(result.data)
     }
 
     const fetchNFTDetails = async () => {
-        const result = await axios.get('http://127.0.0.1:8000/api/nft/1/');
+        const result = await axios.get('http://127.0.0.1:8000/api/nft/2/');
 
         console.log(result.data)
         setNft(result.data)
@@ -44,11 +44,11 @@ const UserProfile = () => {
 			
 			  <Col class="col-md-4">
 				<h5 style={{fontFamily:"arial",fontSize:14}}>Digital collectibles</h5>
-				<span class="num">{NFTd.length}</span>
+				<span style={{fontFamily:"arial",fontSize:14}} class="num">{NFTd.length}</span>
 			  </Col>
 			  <Col class="col-md-4">
-			  <h5 style={{fontFamily:"arial",fontSize:14}}>Loyality Points</h5>
-				<span class="num">10</span>
+			  <h5 style={{fontFamily:"arial",fontSize:14}}>User Name</h5>
+				<span style={{fontFamily:"arial",fontSize:14}}>{User.username}</span>
 			  </Col>
 			 
 			  </Row>
