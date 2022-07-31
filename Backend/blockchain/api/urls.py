@@ -19,5 +19,12 @@ urlpatterns = [
     path('order/<int:id>/detail/',views.order_details),
     path('cart/<int:uid>/<int:pid>/dec/',views.dec_quant_and_total),
     path('cart/<int:id>/total/',views.total_cart_price),
-
+    path('order/<int:id>/cancel/',views.cancel_order),
+    path('token/<int:uid>/<str:id>/',views.pinata_file_upload),
+    path('user/<int:id>/',views.user_detail),
+    path('nft/<int:id>/',views.valid_nft),
+    path('nft/<int:tid>/<str:uname>/<str:id>/update/',views.update_nft_detail),
+    path('warranty/<int:tid>/',views.update_warranty),
+    path('redeem/<int:tid>/',views.update_redeem),
 ]
+

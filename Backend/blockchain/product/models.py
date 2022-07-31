@@ -32,9 +32,12 @@ class Track_Repairs(models.Model):
         return self.order_id
 
 class NFT_Details(models.Model):
-    order_id = models.ForeignKey(Order_Items, on_delete=models.CASCADE)
-    description = models.CharField(max_length=200, null=True)
-    expiry_date = models.DateTimeField()
-
-    def __str__(self):
-        return self.order_id
+    product_id = models.ForeignKey(Product, on_delete=models.CASCADE,default=0)
+    user_id = models.ForeignKey(User, on_delete=models.CASCADE,default=0)
+    token_url = models.CharField(max_length=200,default='')
+    expiry_date = models.DateTimeField(default='')
+    token_id = models.IntegerField(unique=True,default=0)
+    acc_address = models.CharField(max_length=300,default='')
+    redeem = models.BooleanField(default=True)
+    def _str_(self):
+        return str(self.token_id)

@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 import {Link} from "react-router-dom";
-import logo from '../logo.svg';
-import { domainToASCII } from 'url';
 import styled from 'styled-components';
 import {ButtonContainer} from './Button';
 
@@ -12,17 +10,17 @@ export default class Navbar extends Component{
         return (
            <NavWrapper className="navbar navbar-expand-sm navbar-dark px-sm-5">
                <Link to = '/'>
-               <img style={{fontSize: 20}} src={logo} alt="store" className="navbar-brand"/></Link>
+               <i class="fas fa-shopping-bag fa-2x" aria-hidden="true"></i></Link>
                <div>
                     <Link to = "/" className="nav-link">
-                        <h1 style={{fontSize: 30, fontFamily: "cursive"}}>Dummy-Kart</h1>
+                        <h1 style={{fontSize: 30, fontFamily: "Georgia, serif"}}>FlipKart-Grid</h1>
                     </Link>
                </div>
                <div className='ml-auto'>
                <Link to='/CartDetails'>
               
                   <ButtonContainer>
-                    <span className="mr-2" style={{color: "white",fontFamily:"unset",fontSize:18}}>
+                    <span className="mr-2" style={{color: "white",fontFamily:"Georgia, serif",fontSize:18}}>
                     <i style={{marginRight: 10,fontSize: 20}} className="fas fa-cart-plus" />
                        My cart
                     </span>
@@ -30,11 +28,11 @@ export default class Navbar extends Component{
                    </ButtonContainer>
 
                </Link>
-               <Link to='/Account'>
+               <Link to='/UserProfile'>
                    <ButtonContainer>
-                    <span className="mr-2" style={{color: "white",fontFamily:"unset",fontSize:18}}>
+                    <span className="mr-2" style={{color: "white",fontFamily: "Georgia, serif",fontSize:18}}>
                     <i style={{marginRight: 10,fontSize: 20}} className="fas fa-user" />
-                       My Account
+                       User Profile
                     </span>
                      
                    </ButtonContainer>
@@ -43,7 +41,7 @@ export default class Navbar extends Component{
               
                <Link to='/AddProd'>
                    <ButtonContainer>
-                    <span className="mr-2" style={{color: "white",fontFamily:"unset",fontSize:18}}>
+                    <span className="mr-2" style={{color: "white",fontFamily: "Georgia, serif",fontSize:18}}>
                     <i style={{marginRight: 10,fontSize: 20}} className="fas fa-user" />
                        Add Product
                     </span>
