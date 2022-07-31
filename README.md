@@ -22,8 +22,6 @@ ReactJs, Axios, Web3, Django, SQLite, HTML, CSS, Blockchain...
 
 ## Screenshots
 
-![nftdetails](https://user-images.githubusercontent.com/60435967/182042880-ed96afa6-1d46-46c3-9973-a4bab9b28995.png)
-
 
 ![main-screen](https://user-images.githubusercontent.com/60435967/182043230-fc1d57ab-19cb-4145-a6fb-44afaaf8685c.png)
 
@@ -38,6 +36,9 @@ ReactJs, Axios, Web3, Django, SQLite, HTML, CSS, Blockchain...
 
 
 ![add-product](https://user-images.githubusercontent.com/60435967/182043241-3d75ca63-4665-489a-bc50-fc22ed8f265f.png)
+
+
+![nftdetails](https://user-images.githubusercontent.com/60435967/182042880-ed96afa6-1d46-46c3-9973-a4bab9b28995.png)
 
 
 ## Installation
