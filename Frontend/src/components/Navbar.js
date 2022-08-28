@@ -13,7 +13,7 @@ export default class Navbar extends Component{
                <i class="fas fa-shopping-bag fa-2x" aria-hidden="true"></i></Link>
                <div>
                     <Link to = "/" className="nav-link">
-                        <h1 style={{fontSize: 30, fontFamily: "Georgia, serif"}}>FlipKart-Grid</h1>
+                        <h1 style={{fontSize: 30, fontFamily: "Georgia, serif"}}>Trend-Warehouse</h1>
                     </Link>
                </div>
                <div className='ml-auto'>
