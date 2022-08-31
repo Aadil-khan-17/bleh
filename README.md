@@ -1,5 +1,5 @@
 
-# FlipKart-Grid Ecommerce Application
+# Trend-Warehouse Ecommerce Application
 
 A FullStack Ecommerce App built with Django, Blockchain and ReactJs.
 
