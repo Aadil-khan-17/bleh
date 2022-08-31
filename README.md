@@ -21,24 +21,16 @@ ReactJs, Axios, Web3, Django, SQLite, HTML, CSS, Blockchain...
 
 
 ## Screenshots
+![front-page](https://user-images.githubusercontent.com/60435967/187740415-ec77d76a-9011-4841-b36c-8aece8dca27a.png)
+![cart](https://user-images.githubusercontent.com/60435967/187740441-5c1ec5c3-e4fb-4b50-8861-f4c27c60692b.png)
+![transaction](https://user-images.githubusercontent.com/60435967/187740525-cff3731c-3c93-4014-a9c7-3ee753d63e05.png)
+![trabsaction-complete](https://user-images.githubusercontent.com/60435967/187740532-94a4e57b-8d71-4f4b-96f5-33d7123edeba.png)
+![profile](https://user-images.githubusercontent.com/60435967/187740543-4b8fc8da-13cb-437f-94d9-0444bb2f72c5.png)
 
-
-![main-screen](https://user-images.githubusercontent.com/60435967/182043230-fc1d57ab-19cb-4145-a6fb-44afaaf8685c.png)
-
-
-![cart-details](https://user-images.githubusercontent.com/60435967/182043233-6fe33844-781b-40dc-931f-a203cbecb078.png)
-
-
-![payment](https://user-images.githubusercontent.com/60435967/182043236-eea44df0-5c87-485c-8d0b-eaedacb0d2bd.png)
-
-
-![user-profile](https://user-images.githubusercontent.com/60435967/182043238-86dc206b-ff58-4b9a-a56e-c1c65b15fadd.png)
-
-
-![add-product](https://user-images.githubusercontent.com/60435967/182043241-3d75ca63-4665-489a-bc50-fc22ed8f265f.png)
-
-
-![nftdetails](https://user-images.githubusercontent.com/60435967/182042880-ed96afa6-1d46-46c3-9973-a4bab9b28995.png)
+![transfer](https://user-images.githubusercontent.com/60435967/187740611-dac4f7a8-e46e-4c0e-a1a1-69fae6657515.png)
+![gift](https://user-images.githubusercontent.com/60435967/187740635-02d35a47-a0f7-46c2-b690-ac00cbcf60e4.png)
+![updated-gift](https://user-images.githubusercontent.com/60435967/187740672-a952dc28-b27c-469e-b8eb-8503adbf1283.png)
+![transfer-history](https://user-images.githubusercontent.com/60435967/187740690-185726c8-d8c1-4fca-a4e9-a0253529be7f.png)
 
 
 ## Installation

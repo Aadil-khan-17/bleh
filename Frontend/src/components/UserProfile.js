@@ -12,14 +12,14 @@ const UserProfile = () => {
     const [NFTd, setNft] = useState([]);
 
     const fetchUserDetails = async () => {
-        const result = await axios.get('http://127.0.0.1:8000/api/user/2/');
+        const result = await axios.get('http://127.0.0.1:8000/api/user/1/');
 
         console.log(result.data)
         setUser(result.data)
     }
 
     const fetchNFTDetails = async () => {
-        const result = await axios.get('http://127.0.0.1:8000/api/nft/2/');
+        const result = await axios.get('http://127.0.0.1:8000/api/nft/1/');
 
         console.log(result.data)
         setNft(result.data)
