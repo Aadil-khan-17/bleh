@@ -21,15 +21,29 @@ ReactJs, Axios, Web3, Django, SQLite, HTML, CSS, Blockchain...
 
 
 ## Screenshots
+### Home and cart Page:
 ![front-page](https://user-images.githubusercontent.com/60435967/187740415-ec77d76a-9011-4841-b36c-8aece8dca27a.png)
+
+
 ![cart](https://user-images.githubusercontent.com/60435967/187740441-5c1ec5c3-e4fb-4b50-8861-f4c27c60692b.png)
+
+
+### Transsction using metamask:
 ![transaction](https://user-images.githubusercontent.com/60435967/187740525-cff3731c-3c93-4014-a9c7-3ee753d63e05.png)
 ![trabsaction-complete](https://user-images.githubusercontent.com/60435967/187740532-94a4e57b-8d71-4f4b-96f5-33d7123edeba.png)
+
+
+### User Profile updated with purchased Products:
 ![profile](https://user-images.githubusercontent.com/60435967/187740543-4b8fc8da-13cb-437f-94d9-0444bb2f72c5.png)
 
+### Transfer product ownership:
 ![transfer](https://user-images.githubusercontent.com/60435967/187740611-dac4f7a8-e46e-4c0e-a1a1-69fae6657515.png)
+
+### redeem Gift-Gamification Feature using blockchain:
 ![gift](https://user-images.githubusercontent.com/60435967/187740635-02d35a47-a0f7-46c2-b690-ac00cbcf60e4.png)
 ![updated-gift](https://user-images.githubusercontent.com/60435967/187740672-a952dc28-b27c-469e-b8eb-8503adbf1283.png)
+
+### Transfer History:
 ![transfer-history](https://user-images.githubusercontent.com/60435967/187740690-185726c8-d8c1-4fca-a4e9-a0253529be7f.png)
 
 
