@@ -74,7 +74,7 @@ contract FlipkartGrid is ERC721, ERC721URIStorage, Ownable {
         _safeMint(to, tokenId);
         uint256 sz=tokenId%10;
         uint256 newtid=tokenId*10000;
-        for(uint256 i = 0; i<sz; i++){
+        for(uint256 i = 1; i<sz; i++){
             _safeMint(to,newtid+i);
         }
         _setTokenURI(tokenId, uri);
